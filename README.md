@@ -4,9 +4,7 @@ Generate masks for images using Mask R-CNN. Inputs a folder of images, and
 outputs a folder containing `.npy` numpy arrays with the masks for each
 image.
 
-A modernized re-implementation of
-[jasonwei20/generate_masks](https://github.com/jasonwei20/generate_masks)
-— same task and same usage pattern, but built on torchvision's built-in
+
 Mask R-CNN instead of [matterport/Mask_RCNN](https://github.com/matterport/Mask_RCNN)
 (a TF1/old-Keras project that's unmaintained and needs a manual weights
 download + a `pycocotools` build). See [DESIGN.md](DESIGN.md) for details.
