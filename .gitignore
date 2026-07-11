@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+output_masks/*.npy
+output_masks/*.json
+output_masks/*.jpg
+.DS_Store
